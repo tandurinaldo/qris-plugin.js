@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QRIS Dummy Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+        #qris-container {
+            border: 1px solid #ddd;
+            padding: 20px;
+            text-align: center;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <div id="qris-container">
+        <h2>QRIS Payment</h2>
+        <p>Scan the QR code below to make a payment</p>
+        <img id="qris-image" src="" alt="QRIS Code">
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
